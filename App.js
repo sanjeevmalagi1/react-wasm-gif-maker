@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from "../web_modules/react.js";
+import React, {useState, useEffect} from "./web_modules/react.js";
 import "./App.css.proxy.js";
-import {createFFmpeg, fetchFile} from "../web_modules/@ffmpeg/ffmpeg.js";
+import {createFFmpeg, fetchFile} from "./web_modules/@ffmpeg/ffmpeg.js";
 const ffmpeg2 = createFFmpeg({log: true});
 function App2() {
   const [ready, setReady] = useState(false);
